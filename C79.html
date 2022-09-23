@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>C79</title>
+<link rel="stylesheet" type="text/css" href="bowser.css">
+<script src="index.js"></script>
+</head>
+<body>
+    <center>
+        <h2 style="margin-bottom: 20px; margin-top: 20px; font-family:Arial;">
+        List of students in class
+    </h2>
+    
+    <div>
+        <span class="glyphicon glyphicon-user" style="color: orange">1</span>
+        <input type="text" placeholder="Name of the Student" id="student1">
+        <br>
+
+        <span class="glyphicon glyphicon-user" style="color: orange">2</span>
+        <input type="text" placeholder="Name of the Student" id="student2">
+        <br>
+
+        <span class="glyphicon glyphicon-user" style="color: orange">3</span>
+        <input type="text" placeholder="Name of the Student" id="student3">
+        <br>
+
+        <span class="glyphicon glyphicon-user" style="color: orange">4</span>
+        <input type="text" placeholder="Name of the Student" id="student4">
+        
+    </div>
+    <button onclick="submit()" id="submit_btn">
+        Submit
+    </button>
+    <div id="display_name_with_commas" style="color: darkgray;"></div>
+    <hr>
+    <div id="display_name_without_commas" style="color: darkgray;"></div>
+    
+   
+    <button onclick="sort()" id="sort_btn">
+    Sort
+</button>
+</center>
+
+
+</body>
+</html>
